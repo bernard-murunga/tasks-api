@@ -7,3 +7,4 @@ def test_get_all_questions(client):
     assert response.status_code == 200
     assert b'"id":1' in response.data
     assert b'"id":2' in response.data
+
